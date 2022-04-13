@@ -11,22 +11,22 @@ Config = {}
 
 Config.Storage = {
 	[1] = {
-		name = "cigarettebox", 
-		label = "Cigarette Box", 
-		weight = 12,	-- This is the max weight this item can hold (make it less than this items weight to prevent this item being added to itself)
-		slots = 12, 	-- This is the number of slots this item has
+		name = "photoalbum", 
+		label = "Fotoalbum", 
+		weight = 2,	-- This is the max weight this item can hold (make it less than this items weight to prevent this item being added to itself)
+		slots = 100, 	-- This is the number of slots this item has
 		items = { 		-- This is where you can define items that are stored within by default
 			[1] = {
-				description = "A single cigarette",
-				name = "cigarette",
+				description = "Foto Album für die Kamera!",
+				name = "photoalbum",
 				useable = true,
 				type = "item",
 				amount = 1,
 				weight = 1,
 				unique = false,
-				image = "69-brand-pack.png",
+				image = "photoalbum.png",
 				slot = 1,
-				label = "Cigarette"
+				label = "Fotoalbum"
 			}
 		}
 	},
